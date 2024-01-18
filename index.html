@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>
+            Formulaire
+        </title>
+    </head>
+    <body>
+        <form method="get" action="">
+            
+            <label for="FirstName" style="color: chocolate;">First Name:</label><br>
+            <input type="text" name="FirstName" id="FirstName" autofocus size="30" maxlength="20"><br>
+            
+            <label for="LastName">Last Name :</label><br>
+            <input type="text" name="LastName" id="LastName" size="30" maxlength="20"><br>
+            
+            <label for="Email">Email :</lab xel><br>
+            <input type="email" name="Email" id="Email" required size="30" maxlength="20"><br>
+            
+            <label for="Password:">Password :</label><br>
+            <input type="password" name="Password" id="Password" minlength="6" size="30" maxlength="20"><br>
+            
+            <label for="Gender">Gender :</label><br>
+            <input type="radio" name="Gender" value="Male" id="Male"><label for="Male">Male</label><br>
+            <input type="radio" name="Gender" value="Female" id="Female"><label for="Female">Female</label><br>
+            <input type="radio" name="Gender" value="Other" id="Other"><label for="Other">Other</label><br>
+            
+            <label for="Date of Birth">Date of Birth :</label><br>
+            <input type="date" name="Date of Birth" id="Date of Birth" placeholder="jj/mm/aaaa" size="30" maxlength="20"><br>            
+            
+            <label for="Website">Website :</label><br>
+            <input type="url" name="Website" id="Website" size="30"><br>
+            
+            <label for="Country">Country :</label><br>
+            <select name="Country">
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="canada">Canada</option>
+                <option value="congo rd">Congo RD</option>
+            </select><br>
+            
+            <label for="Message">Message :</label><br>
+            <textarea name="Message" id="Message" cols="50" rows="6"></textarea><br>
+            
+            <input type="submit" value="submit">
+        </form>
+    </body>
+</html>
